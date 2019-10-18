@@ -8,16 +8,10 @@
 
         public string LastName { get; set; }
 
-        public User(string name, string age, string lastName)
+        public User(string name, string age)
         {
             this.Age = age;
             this.Name = name;
-            this.LastName = lastName;
         }
-
-        public void PrintUserName()
-        {
-            System.Console.WriteLine("User name: " + this.Name + " " + this.LastName + "!");
-        }    
     }
 }
