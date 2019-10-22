@@ -6,10 +6,14 @@
 
         public int Ram { get; set; }
 
-        public Notebook(string title2, int ram)
+        public double Price { get; set; }
+
+        public Notebook(string title2, double price, int ram)
         {
             this.Title = title2;
+            this.Price = price;
             this.Ram = ram;
+
         }
     }
 }
