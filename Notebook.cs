@@ -4,9 +4,9 @@
     {
         public string Title { get; set; }
 
-        public Notebook(string title)
+        public Notebook(string title1)
         {
-            this.Title = title;
+            this.Title = title1;
         }
     }
 }
