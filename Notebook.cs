@@ -4,9 +4,12 @@
     {
         public string Title { get; set; }
 
-        public Notebook(string title2)
+        public double Price { get; set; }
+
+        public Notebook(string title2, double price)
         {
             this.Title = title2;
+            this.Price = price;
         }
     }
 }
